@@ -5,7 +5,8 @@
 
 trigger:
 - master
-
+npm test
+displayName: 'npm install, build, and test'
 pool:
   vmImage: ubuntu-latest
 
